@@ -1,0 +1,80 @@
+body {
+  /* background-color: #D5D2EA; */
+  /* background-color: #12072Cff; */
+  position: relative;
+  overflow-x: hidden;
+}
+
+.footer-links a:hover {
+  color: #9C7AEBff;
+}
+
+.hero-bg {
+  background: linear-gradient(to top, #12072C 0%, #00000000 50%), url('./src/assets/images/573261_Business_Stock_1920x1080.jpg');
+  background-size: cover;
+  background-position: center left;
+}
+
+.bg-candle {
+  background-image: url('./assets/images/candleBack.svg');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-forex {
+  background: linear-gradient(to top, #12072C 0%, #00000071 50%, #12072C 100%), url('./assets/images/forex2.webp');
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-glass {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, 0.075) 0%, rgba(255, 255, 255, 0.15) 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.bg-mission {
+  min-height: 15rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-vision {
+  min-height: 15rem;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.glow {
+  text-shadow: 0 0 15px #004cffa2;
+}
+
+.back-glow {
+  position: relative;
+  z-index: 1;
+}
+
+.back-glow::before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 2000px 100px rgb(0, 228, 253);
+  z-index: -1;
+}
+
+.box-glow {
+  box-shadow: 0 0 2000px 100px rgb(0, 228, 253);
+}
+
+span {
+  margin: 0;
+  padding: 0;
+}

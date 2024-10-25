@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stats {
+    @apply border-l-4 border-l-white/20 text-3xl font-bold pl-4 mb-4
+}
+.box-glow {
+    @apply absolute opacity-20 scale-150
+}
+.animate-bounce {
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+
+.section-text {
+    @apply text-center text-lg text-darktext/80 dark:text-white/50
+}
