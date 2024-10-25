@@ -1,7 +1,7 @@
 # ABLY Forex Project
 ## frontend task
 
-### live preview: [ably-forex.vercel.app](https://ably-forex.vercel.app/)
+### live preview: [ablyforex.vercel.app](https://ablyforex.vercel.app/)
 - to run the project localy, clone the project and run the commands below:
 ```
 $ npm install
