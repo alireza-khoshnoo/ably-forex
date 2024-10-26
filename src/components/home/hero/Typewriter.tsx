@@ -1,7 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 
 export default function TypeWriter() {
-  const texts = ["MQL Programming", "Trading Bots", "Forex Market", "Trading Strategies"];
+  const texts = ["MQL Language", "Trading Bots", "Forex Market", "Trading Strategies"];
 
   return (
     <span className="text-4xl font-semibold">
